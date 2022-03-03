@@ -1,5 +1,5 @@
-0x01.Shell, permissions Project
-Tasks:
+0x01.Shell, permissions Project Tasks:
+
 0. My name is Betty - 'su betty' command changes the current user to betty
 1. Who am I - 'id -un' or 'whoami' commands prints the effective username of the current user
 2. Groups - 'id -Gn' or 'groups' commands prints all the groups the current user is part of
