@@ -22,7 +22,7 @@
 12. File type - 'file /tmp/iamafile' prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we wil run your script.
 13. We are symbols, and inhabit symbols - 'ln -s /bin/ls __ls__' creates a symbolic link to /bin/ls, named __ls__. Created in the current working directory.
 14. Copy HTML files - 'cp -nu *.html ..' copies all the HTML files from the current working direcory to the parent of the working directory, but only copies files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
-15. Let's move - 'mv [[:UPPER:]]*' /tmp/u creates a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+15. Let's move - 'mv [[:UPPER:]]* /tmp/u' creates a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 16. Clean Emacs - 'rm *~' deletes all files in the current directory that end with the character ~ .
 17. Tree - 'mkdir {welcome/,welcome/to/,welcome/to/school}' creates those 3 direcrories.
 18. Life is a series of commas,not periods - 'ls -pamv' lists all the files and directories of the current directory, separated by commas (,).
