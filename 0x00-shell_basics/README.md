@@ -29,7 +29,9 @@
 -Only digits and letters are used to sort; Digits should come first
 -You can assume that all the files we will test with will have at least one letter or one digit
 -The listing should end with a new line
+
 19. File type: School -
+
 "0 string SCHOOL School data
 !:mime School"
 
