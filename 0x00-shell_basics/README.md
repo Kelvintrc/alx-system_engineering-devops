@@ -6,9 +6,13 @@
 3. The long format - 'ls -l' displays current directory contents i a long format.
 4. Hidden files 'ls -la' displays current directory contents, including hidden files(starting with). Using long format.
 5. I love numbers - 'ls -lna' displays current directory contents:
+
 -Long format
+
 -With user and group IDs displayed numerically
+
 -And hidden files(starting with .)
+
 6. Welcome - 'mkdir /tmp/my_first_directory/' creates a directoy named my_first_directory in the /tmp/ directory/
 7. Betty in my first directory - 'mv /tmp/betty /tmp/my_first_directory/betty' moves the file betty from /tmp/ to /tmp/my_first_directory
 8. Bye bye Betty - 'rm /tmp/my_first_directory/betty' deletes the file betty.
@@ -24,10 +28,15 @@
 18. Life is a series of commas,not periods - 'ls -pamv' lists all the files and directories of the current directory, separated by commas (,).
 
 -Directory names should end with a slash (/)
+
 -Files and directories starting with a dot (.) should be listed
+
 -The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+
 -Only digits and letters are used to sort; Digits should come first
+
 -You can assume that all the files we will test with will have at least one letter or one digit
+
 -The listing should end with a new line
 
 19. File type: School -
