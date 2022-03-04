@@ -33,6 +33,7 @@
 19. File type: School -
 
 "0 string SCHOOL School data
+
 !:mime School"
 
 Then compile using this command:
