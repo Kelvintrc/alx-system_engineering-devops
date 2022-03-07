@@ -18,3 +18,8 @@ Task:
 The current and parent directories should not be taken into account
 Hidden directories should be counted.
 12. What's new - 'ls -1t | head -10' Displays 10 newest files in the current directory. 1 file per line and sorted from the newest to the oldest.
+13. Being unique is better than being perfect - 'sort | uniq -u' takes a list of words as input and prints only words that appear exactly once.
+
+Input format: One line, one word
+Output format: One line, one word
+Words should be sorted
