@@ -17,3 +17,4 @@ Task:
 
 The current and parent directories should not be taken into account
 Hidden directories should be counted.
+12. What's new - 'ls -1t | head -10' Displays 10 newest files in the current directory. 1 file per line and sorted from the newest to the oldest.
