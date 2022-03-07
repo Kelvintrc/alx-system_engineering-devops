@@ -13,5 +13,7 @@ Task:
 8. Save current state of directory - 'ls -la > ls_cwd_content' writes into the file ls_cwd_content the result of the command ls -la.
 9. Duplicate last line - 'tail -n 1 < iacta >> iacta' Duplicates the last line of the file iacta.
 10. No more javascript - 'find -name "*.js" -type f -delete' deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+11. Don't just count your directories, make your directories count - 'find . -type d ! -path . -print | wc -l' counts the number of directories and sub-directories in the current directory.
 
-
+The current and parent directories should not be taken into account
+Hidden directories should be counted.
