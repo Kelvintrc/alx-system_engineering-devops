@@ -30,3 +30,4 @@ Words should be sorted
 18. Letters only please - 'grep "^[[:alpha:]]" /etc/ssh/sshd_config' Displays all lines starting with a letter in that file.
 19. A to Z - 'tr "A" "Z" | tr "c" "e"' Replaces all characters A and c from input to Z and e respectively.
 20. Without C, you would live in hiago - 'tr -d "c" | tr -d "C"' removes all letters c and C from input.
+21. esreveR - 'rev' reverses its input.
