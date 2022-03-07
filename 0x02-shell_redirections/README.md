@@ -65,3 +65,10 @@ One file name per line
 The listing should end with a new line
 
 You are not allowed to use basename, grep, egrep, fgrep or rgrep
+
+25. Acrostic - cut -c 1 | paste -s -d '' decodes acrostics that use the first letter of each line.
+
+
+The ‘decoded’ message has to end with a new line
+
+You are not allowed to use grep, egrep, fgrep or rgrep
