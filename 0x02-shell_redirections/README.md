@@ -15,14 +15,18 @@ Task:
 10. No more javascript - 'find -name "*.js" -type f -delete' deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 11. Don't just count your directories, make your directories count - 'find . -type d ! -path . -print | wc -l' counts the number of directories and sub-directories in the current directory.
 
+
 The current and parent directories should not be taken into account
 Hidden directories should be counted.
+
 12. What's new - 'ls -1t | head -10' Displays 10 newest files in the current directory. 1 file per line and sorted from the newest to the oldest.
 13. Being unique is better than being perfect - 'sort | uniq -u' takes a list of words as input and prints only words that appear exactly once.
+
 
 Input format: One line, one word
 Output format: One line, one word
 Words should be sorted
+
 14. It must be in that file - 'grep "root" /etc/passwd' Displays lines containing the pattern "root" from the file /etc/passwd.
 15. Count that word - 'grep "bin" /etc/passwd | wc -l' Displays the number of lines that contain the pattern "bin" in the file /etc/passwd.
 16. What's next? - 'grep -A 3 "root" /etc/passwd' Displays lines containing the pattern "root" and 3 lines after them in the file /etc/passwd.
@@ -31,4 +35,4 @@ Words should be sorted
 19. A to Z - 'tr "A" "Z" | tr "c" "e"' Replaces all characters A and c from input to Z and e respectively.
 20. Without C, you would live in hiago - 'tr -d "c" | tr -d "C"' removes all letters c and C from input.
 21. esreveR - 'rev' reverses its input.
-22. Dj Cut Killer - "sort /etc/passwd | cut -d':' -f 1,6" displays all users and their home directories, sorted by users.
+22. Dj Cut Killer - "cut -d':' -f 1,6 /etc/passwd | sort" displays all users and their home directories, sorted by users.
