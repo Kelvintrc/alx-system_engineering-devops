@@ -8,3 +8,4 @@ Task:
 3. What about 2? - 'cat /etc/passwd /etc/hosts' displays the content of the two files.
 4. Last lines of a file - 'tail -n 10 /etc/passwd' displays the last 10 lines of the file /etc/passwd.
 5. I'd prefer the first ones actually - 'head -n 10 /etc/passwd' displays the first 10 lines of the file /etc/passwd.
+6. Line#2 - 'head -n 3 iacta | tail -n 1' displays the third line of the file iacta.
