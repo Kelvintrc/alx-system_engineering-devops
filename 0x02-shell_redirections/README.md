@@ -10,3 +10,5 @@ Task:
 5. I'd prefer the first ones actually - 'head -n 10 /etc/passwd' displays the first 10 lines of the file /etc/passwd.
 6. Line#2 - 'head -n 3 iacta | tail -n 1' displays the third line of the file iacta.
 7. It is a good file that cuts iron without making noise - echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)" creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+8. Save current state of directory - 'ls -la > ls_cwd_content' writes into the file ls_cwd_content the result of the command ls -la.
+9. Duplicate last line - 'tail -n 1 < iacta >> iacta' Duplicates the last line of the file iacta.
