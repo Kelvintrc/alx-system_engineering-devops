@@ -12,3 +12,6 @@ Task:
 7. It is a good file that cuts iron without making noise - echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)" creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 8. Save current state of directory - 'ls -la > ls_cwd_content' writes into the file ls_cwd_content the result of the command ls -la.
 9. Duplicate last line - 'tail -n 1 < iacta >> iacta' Duplicates the last line of the file iacta.
+10. No more javascript - 'find -name "*.js" -type f -delete' deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+
+
