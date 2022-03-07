@@ -36,3 +36,16 @@ Words should be sorted
 20. Without C, you would live in hiago - 'tr -d "c" | tr -d "C"' removes all letters c and C from input.
 21. esreveR - 'rev' reverses its input.
 22. Dj Cut Killer - "cut -d':' -f 1,6 /etc/passwd | sort" displays all users and their home directories, sorted by users.
+23. Empty casks make the most noise - 'find . -empty | rev | cut -d '/' -f 1 | rev'finds all empty files and directories in the current directory and all sub-directories.
+
+
+Only the names of the files and directories should be displayed (not the entire path)
+
+Hidden files should be listed
+
+One file name per line
+
+The listing should end with a new line
+
+You are not allowed to use basename, grep, egrep, fgrep or rgrep
+
