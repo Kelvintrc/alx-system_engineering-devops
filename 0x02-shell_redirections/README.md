@@ -27,3 +27,4 @@ Words should be sorted
 15. Count that word - 'grep "bin" /etc/passwd | wc -l' Displays the number of lines that contain the pattern "bin" in the file /etc/passwd.
 16. What's next? - 'grep -A 3 "root" /etc/passwd' Displays lines containing the pattern "root" and 3 lines after them in the file /etc/passwd.
 17. I hate bins - 'grep -v "bin" /etc/passwd' Displays all the lines in the file that do not contain the pattern "bin".
+18. Letters only please - 'grep "^[[:alpha:]]" /etc/ssh/sshd_config' Displays all lines starting with a letter in that file.
