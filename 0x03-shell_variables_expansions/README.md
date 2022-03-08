@@ -9,3 +9,4 @@ Tasks:
 4. Global variables - ' printenv ' lists environment variables.
 5. Local variables - ' set ' lists all local variables and environment variables, and functions.
 6. Local variable - ' BEST="School" ' creates a variable named BEST with value School.
+7. Global variable - ' export BEST="School" ' creates a new global variable.
