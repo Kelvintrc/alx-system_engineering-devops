@@ -6,5 +6,5 @@ Tasks:
 1. Hello you - ' echo "hello $USER" ' prints hello user, where user is the current Linux user.
 2. The path to success is to take massive, determined action - 'export PATH=$PATH:/action' Adds /action to the PATH. /action is the last directory the shell looks into when looking for a program.
 3. If the path be beautiful, let us not ask where it leads - ' echo $((` echo $PATH | tr ':' '\n' | wc -l ' counts the number of directories in the PATH.
-4. Global variables - ' env ' lists environment variables.
+4. Global variables - ' printenv ' lists environment variables.
 5. Local variables - ' printenv ' lists all local variables and environment variables, and functions
