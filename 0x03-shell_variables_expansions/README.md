@@ -10,3 +10,5 @@ Tasks:
 5. Local variables - ' set ' lists all local variables and environment variables, and functions.
 6. Local variable - ' BEST="School" ' creates a variable named BEST with value School.
 7. Global variable - ' export BEST="School" ' creates a new global variable.
+8. Every addition to true knowledge is an addition to human power - '
+echo $((128 + $TRUEKNOWLEDGE))' prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
