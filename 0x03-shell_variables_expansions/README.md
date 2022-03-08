@@ -3,3 +3,4 @@
 Tasks:
 
 0. <o> - alias ls="rm *" creates an alias named ls with value rm *
+
