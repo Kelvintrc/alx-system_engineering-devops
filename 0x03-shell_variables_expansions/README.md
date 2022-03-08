@@ -32,3 +32,4 @@ Your script file should contain maximum 64 characters
 13. Floats - ' printf "%.2f\n" $NUM ' prints a number stored in the environment variable NUM with two decimal places, followed by a new line. 
 14. Decimal to Hexadecimal - ' printf "%x\n" $DECIMAL' converts a number stored in the environment variable DECIMAL to base 16, followed by a new line.
 15. Everyone is a proponent of strong encryption - ' tr 'A-Za-z' 'N-ZA-Mn-za-m' ' encodes and decodes text using the rot13 encryption. Assuming ASCII.
+16. The eggs of the brood need to be an odd number - ' paste -d, - - | cut -d, -f1 ' prints every other line from the input, starting with the first line.
