@@ -14,4 +14,17 @@ Tasks:
 echo $((128 + $TRUEKNOWLEDGE))' prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 9. Divide and rule - ' echo $(($POWER / $DIVIDE))' prints the result of POWER divided by DIVIDE, followed by a new line.
 10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath - ' echo $(($BREATH ** $LOVE)) ' displays the result of BREATH to the power  LOVE. 
-11. There are 10 types of people in the world -- Those who understand binary, and those who don't - ' echo $((2#$BINARY)) ' converts a number from base 2 stored in the environment variable BINARY to base 10. 
+11. There are 10 types of people in the world -- Those who understand binary, and those who don't - ' echo $((2#$BINARY)) ' converts a number from base 2 stored in the environment variable BINARY to base 10.
+12. Combination - ' echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
+ ' rints all possible combinations of two letters, except oo.
+
+
+Letters are lower cases, from a to z
+
+One combination per line
+
+The output should be alpha ordered, starting with aa
+
+Do not print oo
+
+Your script file should contain maximum 64 characters 
