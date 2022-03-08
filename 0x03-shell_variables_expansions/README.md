@@ -33,3 +33,12 @@ Your script file should contain maximum 64 characters
 14. Decimal to Hexadecimal - ' printf "%x\n" $DECIMAL' converts a number stored in the environment variable DECIMAL to base 16, followed by a new line.
 15. Everyone is a proponent of strong encryption - ' tr 'A-Za-z' 'N-ZA-Mn-za-m' ' encodes and decodes text using the rot13 encryption. Assuming ASCII.
 16. The eggs of the brood need to be an odd number - ' paste -d, - - | cut -d, -f1 ' prints every other line from the input, starting with the first line.
+17. I'm an instant star. Just add water and stir - ' printf "%o\n" $(( $((5#$(echo $WATER | tr water 01234))) + $((5#$(echo $STIR | tr stir. 01234))) )) | tr 01234567 behlnort ' adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+
+
+
+WATER is in base water
+
+STIR is in base stir.
+
+The result should be in base bestchol
