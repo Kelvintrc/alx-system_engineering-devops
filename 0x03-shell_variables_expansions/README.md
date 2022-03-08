@@ -13,3 +13,4 @@ Tasks:
 8. Every addition to true knowledge is an addition to human power - '
 echo $((128 + $TRUEKNOWLEDGE))' prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 9. Divide and rule - ' echo $(($POWER / $DIVIDE))' prints the result of POWER divided by DIVIDE, followed by a new line.
+10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath - ' echo $(($BREATH ** $LOVE)) ' displays the result of BREATH to the power  LOVE. 
