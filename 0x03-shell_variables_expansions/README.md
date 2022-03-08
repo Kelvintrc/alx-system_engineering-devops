@@ -30,3 +30,4 @@ Do not print oo
 Your script file should contain maximum 64 characters
 
 13. Floats - ' printf "%.2f\n" $NUM ' prints a number stored in the environment variable NUM with two decimal places, followed by a new line. 
+14. Decimal to Hexadecimal - ' printf "%x\n" $DECIMAL' converts a number stored in the environment variable DECIMAL to base 16, followed by a new line.
