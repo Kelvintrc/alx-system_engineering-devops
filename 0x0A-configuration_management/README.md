@@ -1,13 +1,15 @@
-# 0x0A. Configuration management
+# SSH
+Project done during **Full Stack Software Engineering studies** at **ALX Program**. It aims at learning about configuration management using **Puppet**
 
-		Tasks:
+## Technologies
+* Scripts written in GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
+* Tested on Ubuntu 20.04 LTS
+* Puppet 5.5.10
 
-0. Create a file - Using Puppet, create a file in /tmp.
+## Files
 
-Requirements:
-
-	File path is /tmp/school
-	File permission is 0744
-	File owner is www-data
-	File group is www-data
-	File contains I love Puppet
+| Filename | Description |
+| -------- | ----------- |
+| `0-create_a_file.pp` | Create a file in `/tmp` |
+| `1-install_a_package.pp` | Install `puppet-lint` |
+| `2-execute_a_command.pp` | Create a manifest that kills a process named `killmenow` |
