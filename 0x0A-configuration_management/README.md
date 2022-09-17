@@ -1,4 +1,4 @@
-# SSH
+# Configuration Management
 Project done during **Full Stack Software Engineering studies** at **ALX Program**. It aims at learning about configuration management using **Puppet**
 
 ## Technologies
