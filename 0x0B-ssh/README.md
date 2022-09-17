@@ -1,5 +1,16 @@
-# 0x0B. SSH
+# SSH
+Project done during **Full Stack Software Engineering studies** at **ALX Program**. It aims at learning what is SSH, how to create an SSH RSA key pair and how to connect to a remote host using SSH.
 
-		Tasks:
+## Technologies
+* Scripts written in GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
+* Tested on Ubuntu 20.04 LTS
+* Puppet 5.5.10
 
-0. Use a private key - a Bash script that uses ssh to connect to your server using the private key ~/.ssh/school with the user ubuntu.
+## Files
+
+| Filename | Description |
+| -------- | ----------- |
+| `0-use_a_private_key` | Uses `ssh` to connect to a server using a private key previously generated |
+| `1-create_ssh_key_pair` | Creates an RSA key pair |
+| `2-ssh_config` | SSH client configuration using a private key and refusing to authenticate using a password |
+| `100-puppet_ssh_config.pp` | Sets up the client SSH configuration file to connect to a server without typing a password |
