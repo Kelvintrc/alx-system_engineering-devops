@@ -2,7 +2,7 @@
 
 Module of **System engineering** and **Devops**, carried out during **ALX Software Engineering Programme** at **[ALX Africa](https://www.alxafrica.com/)**.
 
-## Technologies
+## Technologies Used
 * Scripts written in GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
 * Tested on Ubuntu 20.04 LTS
 * Puppet version 5.5.10
